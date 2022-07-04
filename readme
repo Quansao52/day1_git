@@ -1,0 +1,6 @@
+- In this app I've tried to cover all the custom view creation for view and view controller
+- I've embedded custom view's in ViewController through programatically or in storyboard
+- Try to use one of the way for creating custom view. Use programatically creating or xib or storyboard
+- If your using xib with class name added to view, then call xib load method only in `override init` method. 
+- If your using xib with class name added to view, then call xib load method in `override init(frame: CGRect)` and `override init(code: NSCoder)` method. 
+- To know more about the custom view read my blog `https://manasaprema04.medium.com/different-way-of-creating-uiviews-in-swift-4aeb1b5d0d6b`
