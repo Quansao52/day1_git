@@ -27,6 +27,7 @@ class MySecondCustomView: UIView {
     // Creating subview
     private func createSubViews() {
         backgroundColor = .black
+        let k = 0;
         let label = UILabel()
         label.textColor = UIColor.white
         label.translatesAutoresizingMaskIntoConstraints = false
